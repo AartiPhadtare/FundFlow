@@ -1,0 +1,9 @@
+.form_wrap {
+    background: #8dccff;
+    padding: 3rem;
+    border-radius: 10px;
+}
+.form-control {
+    background: transparent !important;
+    border: 1px solid #ffffffa8;
+}

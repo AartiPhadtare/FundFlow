@@ -1,0 +1,32 @@
+<div class="container py-5 ">
+<div class="w-50 m-auto form_wrap">
+
+    <form action="" (ngSubmit)="onSubmit()">
+        <div class="mb-3 row">
+            <div class="col-md-6">
+                <label class="mb-2" for="Initial investment">Initial investment</label>
+                <input type="number" id="initial-investment" class="form-control d-block" [(ngModel)]="initialInvestments" name="initial-investment">
+            </div>
+            <div class="col-md-6">
+                <label class="mb-2" for="Duration">Annual investment</label>
+                <input type="number" id="annual-investment" class="form-control" [(ngModel)]="annualInvestments" name="annual-investment">
+            </div>
+            
+        </div>
+        <div class="mb-3 row">
+            <div class="col-md-6">
+                <label class="mb-2" for="Expected Returns">Expected Returns</label>
+                <input type="number" id="Expected-Returns" class="form-control" [(ngModel)]="ExpectedInvestments" name="Expected-Returns">
+            </div>
+            <div class="col-md-6">
+                <label class="mb-2" for="duration">Duration</label>
+                <input type="number" id="duration" class="form-control" [(ngModel)]="duration" name="Duration">
+            </div>
+            
+        </div>
+        <div class="calcbtn mt-4">
+            <button class="btn btn-primary w-100 fw-bold" type="submit">Calculate</button>
+        </div>
+    </form>
+</div>
+</div>
